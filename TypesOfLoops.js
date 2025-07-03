@@ -30,7 +30,7 @@ for (const number of array) {
 
  // for ... in loop
  // --> for in loop give the value of variabls in array
- // --> it give properties of jobject
+ // --> it give properties of Oobject
  const person = {
     naam : "danish",
     age : 30,

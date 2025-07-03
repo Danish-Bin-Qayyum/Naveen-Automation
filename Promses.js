@@ -22,7 +22,7 @@ randonValuePromisis
 //output is fulfillled
 
 /// ==> Promisis chaining
-/*function getevennumber(value, delay) {
+function getevennumber(value, delay) {
 
     return new Promise((resolve,reject)=>{
         setTimeout(() => {
@@ -46,12 +46,12 @@ getevennumbe(2,1000)
 })
 .catch(error=>{
     console.log("promisis chain error",error);
-})*/
+})
 
 ///===>Promises.all
 // -->it use when want you to perform multiple asynic operatins in parallel
 // -- wait for all of them to complete before moving on
-/*const function1 = ()=>{
+const function1 = ()=>{
     return new Promise ((resolve, reject)=> {
         setInterval(() => {
             resolve("don")
@@ -82,13 +82,13 @@ Promise.all([
  })
  .catch(error => {
     console.log('error is promisis');
- })*/
+ })
 
 ///===> Promises.Allsettled
 // --> if the number of promises is resolve it will give you a combin result
 // --> usful when you want to process, whether they succeed or fail,
 // --> you want to gather information about the outcome of each promises 
-/*const getData = ()=>{
+const getData = ()=>{
     return new Promise ((resolve, reject)=> {
         setInterval(() => {
             resolve("data from fetdat")
@@ -115,11 +115,11 @@ Promise.allSettled([
            
         }
     })
-})*/
+})
 
 // Promises
 // --> to see the which promise settles first
-/*const resolvePromisis = ()=>{
+const resolvePromisis = ()=>{
     return new Promise ((resolve, reject)=> {
         setInterval(() => {
             resolve("resolve")
@@ -142,14 +142,14 @@ Promise.race([
 })
 .catch(error =>{
     console.log("error" ,error);
-})*/
+})
 
 ///==>Promises.any
 // --> it is used for handlin multiple promises and resolving with value of the first 
 //   fulfillin promise, similar to however, unlike promise.race(), promise.any reject
 //   immediately when the first promise rejects instead, it waits until at least one
 //   promise fulfills/resolved
-/*const getmsg = ()=>{
+const getmsg = ()=>{
     return new Promise ((resolve, reject)=> {
         setInterval(() => {
             resolve("get msg from api")
@@ -180,7 +180,7 @@ Promise.any([
 })
 .catch(error => {
     console.error("all promise rejected",error);//will log all rejection reasons reject
-})*/
+})
 
 
 

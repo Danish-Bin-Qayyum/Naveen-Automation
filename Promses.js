@@ -83,10 +83,10 @@ const function3 = ()=>{
         }, 2000);
     })
 }
-Promise.all([   // give result of all promise in array 
-    function1(),
-    function2(),
-    function3(),
+Promise.all([       // give result of all promise in array 
+    function1(),    // It takes an iterable (commonly an array) of promises and returns a single promise that: 
+    function2(),    // usin in Fetching Multiple Resources Simultaneously
+    function3(),    //Parallel Processing of Independent Tasks:
 ])
  .then(dataArry => {
     console.log('all data from fun',dataArry);//print the resolve statement

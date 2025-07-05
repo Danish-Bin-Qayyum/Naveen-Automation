@@ -1,12 +1,12 @@
 
  class car {
-    constructor(name,price,model,color) {
+    constructor(name,price,model,color) { // simply creact class
        this.name = name ;
-       this.price = price ;
+       this.price = price ;// Accessing Object Properties and Methods within Methods:
        this.model = model ;
        this.color = color ; 
     }
-    refuel(){
+    refuel(){//non statice method
         console.log("refuel car");
         ;
     }
@@ -26,10 +26,5 @@ console.log(c2.price);
 console.log(c2.model);
 console.log(c2.color);
 
- //exercise
- let address = {
-    street: "a",
-    city: "b",
-    zipcode: "c",
-}
+
 

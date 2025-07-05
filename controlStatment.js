@@ -1,3 +1,4 @@
+
 function checkage(age) {
     if (age>18) {
          console.log("your aer old enouhg to vote");

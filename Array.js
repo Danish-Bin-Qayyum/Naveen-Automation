@@ -1,61 +1,62 @@
 //------------------( Array )---------------------------//
+// why we use ??
+// ans : They provide built-in functionalities that simplify common operations and improve code readability and maintainability.
 
 // 1 . push (add element at end)
  let lang = ["java", "php","js"]
  lang.push("rubby")
- console.log(lang);
+ console.log(lang);  // output ["java", "php","js","rubby"]
 
 // 2 . pop   (remove element at end)
 let number1 = [1,2,3,4,5]
 number1.pop();
-console.log(number1);
+console.log(number1);// ouput  [1,2,3,4]
 
 // 3 . shift  (remove element at front)
 let number2 = [1,2,3,4,5]
 number2.shift();
-console.log(number2);
+console.log(number2); // output [2,3,4,5]
 
 // 4 . unshift (add element at front)
 let number3 = [1,2,3,4,5]
 number3.unshift(0);
-console.log(number3);
+console.log(number3);  /// output [1,2,3,4,5]
 
 // 5 . lenght  (check lenght)
 let number = [1,2,3,4,5]
-console.log(number.length);
+console.log(number.length); // output 5
 
 // 6 . splice  (add and remove element at spefic place)
 let animals = ["dog", "cat", "fish", "bird"]
 animals.splice(1,1 ,'bear')
-console.log(animals);
+console.log(animals); // ["dog", "bear", "fish", "bird"]
 
 // 7 . concat  (combine the two array and make a new one)
 let number4 = [1,2,3,4,5]
 let number5 =[6,7,8,9,0]
-number4.concat(number5)
-let combin = console.log(number);
-console.log(combin);
+let combin =number4.concat(number5)
+console.log(combin);// out put is [1,2,3,4,5,6,7,8,9,0]
 
 // 8 . indexof  (check te index of array)
 let animals1 = ["dog", "cat", "fish", "bird"]
 animals1.indexOf('cat')
-console.log(animals1);
+console.log(animals1); // output is 1
 
-//.9 include
+//.9 include ( check that givan element is avaivle and give answer in boolean value)
 let test =["dog", "cat", "fish", "bird"]
-let flag =test.includes('bear')
-console.log(flag);
+let flag =test.includes('cat')
+console.log(flag);// out put is true
 
 //10 . foreach (print all elements)
 let n = [1,2,3,4,5,6,7,8,9]
 n.forEach((e) => {
-    console.log(e);
+    console.log(e);// output [1,2,3,4,5,6,7,8,9]
 })
 
 //11. slice (altrat an array)
 let pop = [1,2,3,4,5,6,7]
 let newpop = pop.slice(0,5)
-console.log(newpop);
+console.log(newpop); // [1,2,3,4,5]
 
 //-----------------------( summary )---------------------------//
 

@@ -26,7 +26,7 @@ console.log(g1); // uotput is (hello danish you are 20 year old )
 //5. case
 // --> rest parameters (...)
 // --> used for infinit number of arguments
-const sum = (...numbers) => numbers.reduce((acc,num)=> acc+num,0);//rest parameter that allows you to collect an indefinite number of arguments into an array
+const sum = (...numbers) => numbers.reduce((acc,num)=> acc+num,);//rest parameter that allows you to collect an indefinite number of arguments into an array
                                                                   //-->  the accumulator is a value that accumulates (جمع کرنا) the result of the reducer 
 const total = sum(1,2,3,4,5);
 console.log(total);  // output 15 (add all the value)

@@ -39,7 +39,7 @@ function fetchuserData(userid,callback) { // delaring normal function
             1 : {id :1, name:"danisg" },
             2 : {id :2, nmae : "dom" }
         }
-         const user = users(userid)
+         const user = users(userid) 
     if (null,user) {
         
     } else {

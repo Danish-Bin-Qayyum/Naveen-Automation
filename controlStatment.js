@@ -1,5 +1,5 @@
 
-function checkage(age) {
+function checkage(age) {// simply craect a function to the age
     if (age>18) {
          console.log("your aer old enouhg to vote");
     } else {
@@ -7,9 +7,9 @@ function checkage(age) {
     }
 }
 // enter you age
-checkage(30)
+checkage(30) // out put is ("your aer old enouhg to vote")
 
-function checknumber(number) {
+function checknumber(number) {// simply craect a function to +v and -v number
 if (number>0) {
     console.log("number is +v"); 
 } else if (number<0) {
@@ -19,7 +19,7 @@ if (number>0) {
 }   
 }
 // enter you number
-checknumber()
+checknumber(3) // "number is +v"
 
 // nested if - else
 function checkgrade(score) {
@@ -40,7 +40,7 @@ function checkgrade(score) {
     
 } 
 // enter you grade
- checkgrade(80)
+ checkgrade(80) // output is grade b+ 
 
  // another example
  let browser =  "chrome"
@@ -54,7 +54,7 @@ function checkgrade(score) {
     console.log("launch firfox");
  }else{
     console.log("pass the right broswer");
- }
+ } // output chrome browes and pass the right broswer
 
  // switch case
  function checkday(daynumber){
@@ -89,7 +89,7 @@ function checkgrade(score) {
      console.log(day);
 }
 // enter you day number in function
-checkday(5)
+checkday(5)  // output is sta
 
 // another example
  let broswers = "chrome"

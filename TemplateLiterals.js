@@ -1,4 +1,4 @@
-
+// they  provide a more powerful and convenient way to work with strings in JavaScript
 // 1.  use of backtickes
 //  case 1
 const naam ="naveen";
@@ -6,7 +6,7 @@ const age =23;
 const mesg = `hello, my name is  ${naam} and age is ${age}`
 console.log(mesg);
 
-// case 2
+// case 2  in this way we write a paragragh use backtick
 const multiline = `hi this is my javascript code
 and i am so happy
 i want to be perfect in java `

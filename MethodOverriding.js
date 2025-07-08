@@ -8,7 +8,6 @@ class car  {
         this.make=model;
         this.make=make
     }
-
     startebgin (){
         console.log("staring engin");
     }

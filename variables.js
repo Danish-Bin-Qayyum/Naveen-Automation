@@ -2,7 +2,7 @@
 // befor ES6
 //functionaly/locally + globle scope
 
- var a = 10 ;// global scop
+ var a = 12 ;// global scop
  function test() {
     var y=20; // just scop in function
  }
@@ -13,7 +13,7 @@
     var top = "hello js"// just scop in function
  }
  rel()
- console.log(top);
+ console.log(pop);
 
  // can we redefine the variable ?
  // yes ,  but it give you recently define variable

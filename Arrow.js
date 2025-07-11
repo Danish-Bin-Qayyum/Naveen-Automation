@@ -1,3 +1,4 @@
+
 ///---------------------------( declaring Arrow function  )----------------------//
 //1. case 
 const square = num => num*num;// simply define arrow function without  Brackets in the cacre of sigal arrgument

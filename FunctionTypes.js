@@ -9,13 +9,13 @@ function add(a,b) {
 }
 console.log(add(4,5)); // output is 9
 
+const sum = add(2,8)
+console.log(sum);// output ( 10)
+
 function print() {
     console.log("hello");
 }
 print() // out out ( hello)
-
-const sum = add(2,8)
-console.log(sum);// output ( 10)
 
 //2.  function expression / anonymous function
 // -->  that is defined without a name or identifier. 

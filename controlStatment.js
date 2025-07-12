@@ -56,7 +56,8 @@ function checkgrade(score) {
     console.log("pass the right broswer");
  } // output chrome browes and pass the right broswer
 
- // switch case
+ // switch case(The switch statement is used to compare one value against multiple possible cases 
+ // and execute code based on which match occurs.)
  function checkday(daynumber){
      let day;
      switch (daynumber) {

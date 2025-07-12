@@ -6,13 +6,13 @@
 
 const number =[1,2,3,4,5,6];// simply array
 const [a,b,c,d,e,f] = number;
-console.log(a);
-console.log(b);
-console.log(c);
-console.log(d);
-console.log(e);
-console.log(f);
-// output is [1,2,3,4,5,6]
+console.log(a);// output is 1
+console.log(b);// output is 2
+console.log(c);// output is 3
+console.log(d);// output is 4
+console.log(e);// output is 5
+console.log(f);// output is 6
+// output is 
 
 //using spread operat 
 

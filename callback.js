@@ -12,7 +12,7 @@ function greet(name, callback) { // delaring normal function
 }
 
 ///calling function
-function welcom(params) { // simple creacting call back fuction
+function welcom() { // simple creacting call back fuction
     console.log("wellcom.....");
 }
 greet('danish', welcom); //function calling
@@ -42,7 +42,7 @@ function fetchuserData(userid,callback) { // delaring normal function
             2 : {id :2, nmae : "dom" }
         }
          const user = users(userid) 
-    if (null,user) {
+    if (null,user) { // confused here ????
         
     } else {
         callback("user not fiund", null)

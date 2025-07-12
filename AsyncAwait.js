@@ -1,5 +1,6 @@
 //------------------( Async - Await )----------------------------//
-// --> defination :  the await keyword is used within an async function to pause its execution until a Promise resolves or rejects. 
+// --> defination :  the await keyword is used within an async function to pause its execution
+//  until a Promise resolves or rejects. 
 // --> it is an modern  way of handling asyns steps
 // --> it will return a promise (mandatory)
 // --> not need to use await keyword in normal function

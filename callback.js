@@ -1,5 +1,7 @@
 ///------------------(  callback Function )------------------------///
-//async call/task -- once this tast is completed -- then only callback will be called
+/*A callback is a function passed as an argument to another function
+This technique allows a function to call another function
+A callback function can run after another function has finished*/
 // why use callback function ???
 // ans :  allows for asynchronous programming and control flow management, 
 
@@ -59,3 +61,11 @@ function hunsleuserdata(error,userparams) {
     }
     
 }
+// ====>>  summay
+/*A basic callback for greeting and welcoming.
+
+A callback in an asynchronous context using setTimeout.
+
+A simulated user data fetch using a callback for handling success and error cases.
+
+🧾 Corrected */

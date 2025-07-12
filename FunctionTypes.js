@@ -38,7 +38,8 @@ const substruct = new Function('a', 'b','return a - b' )// there are using backt
 const sub = substruct(3,1)                              // we can use return keyword as a arrguments
 console.log(sub); // output  2
 
-//5. IIFE( why we use backticks in javascript)
+ // Basic Syntax of IIFE (functon(){})();
+//5.IIFE(Immediately Invoked Function Expression)
 // --> it will execut itself ( )
 // --> we do not need to execte it
 // --> we do not need to call it
@@ -54,12 +55,11 @@ console.log(sub); // output  2
 // --> the function that given the alterator objects and sequence number of value
 // --> they are use in ES7 vergen of javascript
 function* generatornumbersequence() {  // (condusing ????)
-    yield 1
-    yield 2
-    yield 3
+    yield 1   // The * after function means it’s a generator.
+    yield 2   // yield is used to pause the function and return a value.
+    yield 3    // You can resume the function later using .next(). 
     yield 4
     yield 5
-    yield 6
 }
 const generatorn= generatornumbersequence();
 console.log(generatorn.next().value); // there are run with number of calling
@@ -72,36 +72,34 @@ console.log(generatorn.next().value);
 //7. annonymous function
 // --> which have no specific name
 // --> it is mostly use in call back function
-const numbers = [1,2,3,4,5]
-const sequencenumber =numbers.map((e) =>{// purpose of .map() is to create a new array by transforming each element of an existing array.
-  return e*e;                          // .map() functio run again and again ( callback) with array and give us a new array
-})
-console.log(sequencenumber);// output ( 1,4,9,16,25)
+const greet = function() {
+  console.log("Hello!");
+};
+greet();  // Output: Hello!
 
+//Basic Syntax of recusive function function(){if(){}else{}}
 //. recusive function
 // --> the function that call itself during the execution is called a recursive function.
 function  factorial(n) {
     if (n===0 || n===1) {
-        return 1;
+        return 1;// Exit condition
     }else{
-        return n *  factorial(n-1)
+        return n *  factorial(n-1)//(modifiedParameters);
     }
  }// 
 console.log(factorial(6)); // output 720 (1*2*3*4*5*6)
 //console.log(3);
 //console.log(50);
 
-
-// confusesd ???
 // 9. higher oder function
 function addition(a,b) {
     return a+b;
 }
 function operator(funName,a,b) {
-    funName(a,b)
+   return funName(a,b)
 }
 const s = operator(addition,3,7)
-console.log(s);
+console.log(s); // 10
 
 
 

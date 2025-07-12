@@ -17,7 +17,7 @@ console.log(f);
 //using spread operat 
 
 const lang = ["java","python", "goto", "rudy"]
-// extracting and unpacking values from arrays
+// extracting and unpacking values from arrays   ( there is a quetion ???)
 const [p,q, ...testlang] = lang;// using two arrgument and rest array
 console.log(p); //output java
 console.log(q);// output python

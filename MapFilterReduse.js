@@ -38,10 +38,7 @@ console.log(evennum);//[2,4,6,8,10]
 
 
 //reduce
-/* The reduce() method is used to reduce the array to a single value and executes a provided function for
-* each value of the array (from left to right) and the return value of the function is stored in an 
-* accumulator.
-*/
+// definatio :  that processes each element in an array to produce a single output value. I
 // --> rest parameters (...)
 // --> used for infinit number of arguments
 const sum = (...numbers) => numbers.reduce((acc,num)=> acc+num,);//rest parameter that allows you to collect an indefinite number of arguments into an array

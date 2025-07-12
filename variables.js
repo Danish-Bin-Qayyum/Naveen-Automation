@@ -24,6 +24,7 @@
 
  // issue with var key word
  // why shoud not use var key word?
+ // becous after the condition  is true the var keyword will re-initial with same name
  var flag ="hi naveen"
  var t1 = 4
 

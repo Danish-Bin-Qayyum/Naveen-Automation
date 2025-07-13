@@ -4,14 +4,14 @@
  // --> it work just like loop whict exeract each element of array
  let number = [1,2,3] // creacting a array
  let doublenumber = number.map((e)=> e*2)//apply map function 
- console.log(doublenumber); // output [1,2,3]
+ console.log(doublenumber); // output [2,4,6]
 
  // another example
-let fahtemp = [32,68,104,212]// creacting a array
-function fahtocel(fah) {// simly a function
+let fahtemp = [1,2,3,4]// creacting a array
+function factociel(fah) {// simly a function
 return (fah -32) - (5/9)   
 } 
- let celtemp = fahtemp.map(fahtocel)//apply map function and call the function here
+ let celtemp = fahtemp.map(factociel)//apply map function and call the function here
 console.log(celtemp);
 
 // 2. filter 

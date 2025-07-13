@@ -25,7 +25,7 @@ console.log(number2); // output [2,3,4,5]
 // 4 . unshift 
 /* The unshift() method is used to add elements to the front of an Array.*/
 let number3 = [1,2,3,4,5]
-number3.unshift(0);
+number3.unshift();
 console.log(number3);  /// output [1,2,3,4,5]
 
 // 5 . lengh
@@ -37,9 +37,9 @@ let number = [1,2,3,4,5]
 console.log(number.length); // output 5
 
 // 6 . splice 
-/*The splice() method returns an array with the deleted items:*/
+/* the splice() method is used to add, remove, or replace elements in an array. It modifies the original array and returns an array containing the removed elements (if any).:*/
 let animals = ["dog", "cat", "fish", "bird"]
-animals.splice(1,1 ,'bear')
+animals.splice(1,1 ,'bear')//array.splice(start, deleteCount, item1, item2, ..., itemN)
 console.log(animals); // ["dog", "bear", "fish", "bird"]
 
 // 7 . concat

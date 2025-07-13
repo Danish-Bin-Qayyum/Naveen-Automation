@@ -19,7 +19,6 @@ const  randonValuePromisis = new Promise ((resolve,reject)=>{ // asign a promse 
         }
     }, 2000);// delay of two seconds
 })
-randonValuePromisis // call the promise  ( related calling ? )
 .then(result => { // .then() method in JavaScript , which are objects representing the eventual completion or failure of an asynchronous operation.
     console.log("promosis is fulfilled ", result); //print the resolve statement
 })
@@ -42,7 +41,7 @@ function geteveresolvesnnumber(value, delay) {  // function name and declar tow 
             } else {
                 reject(new error("value is not a even number"));// constructor's executor function to manage the promise's state with reject value
             }
-        }, 2000); // delay time
+        }, delay); // delay time
     })
 };
 //promisis chain
@@ -50,10 +49,10 @@ getevennumbe(2,1000) // calling a normal function passing arrguments
 // --> we can pass the resole value one by one using .then() 
 .then(result=>{ // .then() method in JavaScript , which are objects representing the eventual completion or failure of an asynchronous operation.
     console.log("step 1 get the result even number",result);//print the resolve statement step 1
-    return getevennumber(3,2000) // calling here normal function
+    return getevennumber(4,2000) // calling here normal function
 })                               // it will call to next .then() method
 .then(result=>{ // .then() method in JavaScript , which are objects representing the eventual completion or failure of an asynchronous operation.
- console.log("step 1 get the result even number",result);//print the resolve statement step 2
+ console.log("step 2 get the result even number",result);//print the resolve statement step 2
 })
 .catch(error=>{
     console.log("promisis chain error",error);// catch the error froam promise in case of reject promise
@@ -89,8 +88,8 @@ Promise.all([       // give result of all promise in array
     function2(),    // usin in Fetching Multiple Resources Simultaneously
     function3(),    //Parallel Processing of Independent Tasks:
 ])
- .then(dataArry => { // .then() method in JavaScript , which are objects representing the eventual completion or failure of an asynchronous operation.
-    console.log('all data from fun',dataArry);//print the resolve statement
+ .then(result => { // .then() method in JavaScript , which are objects representing the eventual completion or failure of an asynchronous operation.
+    console.log('all data from fun',result);//print the resolve statement
  })
  .catch(error => {
     console.log('error is promisis');// catch the error froam promise in case of reject promise

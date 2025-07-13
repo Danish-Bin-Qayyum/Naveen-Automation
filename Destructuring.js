@@ -34,7 +34,7 @@ const { firstname,lastname,age}= user;
  console.log(firstname);
  console.log(lastname);
  console.log(age);
-// output is yon, smith ,30
+// output is tom, smith ,30
 
 
  // with function parameter

@@ -27,7 +27,7 @@ console.log("index of orange ", indexof_str ); // -1
 /*Array.lastIndexOf() is the same as Array.indexOf(),
 * but returns the position of the last occurrence of the specified element.*/
 let fruits = ['apple','apple' ,'banana','mango','pear']
-let  lastapply = fruits.lastIndexOf('apple')
+let  lastapply = fruits.lastIndexOf('mango')
 console.log(lastapply);// 1
 
 //6. reverse();

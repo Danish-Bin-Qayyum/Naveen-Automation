@@ -28,7 +28,7 @@ console.log(g1); // uotput is (hello danish you are 20 year old )
 // --> rest parameters (...)
 // --> used for infinit number of arguments
 const sum = (...numbers) => numbers.reduce((acc,num)=> acc+num,);//rest parameter that allows you to collect an indefinite number of arguments into an array
-                                                                  //-->  the accumulator is a value that accumulates (جمع کرنا) the result of the reducer 
+           //array.reduce(callback(accumulator, currentValue)    //-->  the accumulator is a value that accumulates (جمع کرنا) the result of the reducer 
 const total = sum(1,2,3,4,5);
 console.log(total);  // output 15 (add all the value)
 
@@ -40,7 +40,8 @@ const broswerinfo = (broswer = "chrom",...details)=>{ // --> defualt arrgument a
 
 }
 broswerinfo() //output brower :  chrom : 
-broswerinfo("firfos","muzela","edge", " uc brower")// output "muzela","edge", " uc brower")
+                                                   // brower : firfox
+broswerinfo("firfos","muzela","edge", " uc brower")// output of other details("muzela","edge", " uc brower")
 
 //.7 case
 // --> max number using math

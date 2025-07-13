@@ -7,7 +7,6 @@
 // --> it is only use in promises
 
 async function f1() {//simple define a async function  (  why we use async function with .then() ?)
-    console.log("this is an async fun without await step"); // print line
     return 42 // function return to the .then() method
 }
  f1().then(result=>{ // calling function
@@ -17,9 +16,7 @@ async function f1() {//simple define a async function  (  why we use async funct
 
 // asyn function without await with errordeclaring an asynchronous function.
 async function f2() {//simple define a async function
-    console.log("this is an async fun with error");
     throw new error("this is my error"); // just creacting a error in new keyword and throw keyword( used to explicitly generate or "throw" an exception. )
-    
 }
 f2().catch(error=>{
     console.log(`the error msg ${error}`);

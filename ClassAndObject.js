@@ -15,4 +15,5 @@ class car {// simply creact class
     }
 }
 //new keywor to craate the obj
-const c1 = new car ("mbws") // simply creacting a objects 
+const c1 = new car ("mbws",2000,2025,"red") // simply creacting a objects 
+console.log(c1);

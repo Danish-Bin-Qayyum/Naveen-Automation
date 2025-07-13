@@ -71,10 +71,10 @@ n.forEach((e) => {
 })
 
 //11. slice 
-/* The slice() method returns a new array containing a portion of the original array,
-* based on the start and end index provided as arguments*/
+/* , the slice() method is used to extract a portion of an array or string and returns a new array
+* or string, without modifying the original one.*/
 let pop = [1,2,3,4,5,6,7]
-let newpop = pop.slice(0,5)
+let newpop = pop.slice(0,5)//array.slice(start, end)
 console.log(newpop); // [1,2,3,4,5]
 
 //-----------------------( summary )---------------------------//

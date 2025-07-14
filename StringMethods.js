@@ -50,26 +50,5 @@ console.log(str.length);
   // --> remove space from ending
  console.log("hello js ".trimEnd());
 
- // --> add in sting star and any
- console.log('dew'.startsWith(10,'*'));
-
- // --> add in sting star and any
- console.log("dew".padStart(10,"*"));
-
-// --> means to check that a world is includ or not
- console.log("javascript".startsWith("j"));
- console.log("javascript".endsWith("script"));
- 
- // --> repeact the world
- console.log('dew'.repeat(3));
- console.log('naveen automation labs'.indexOf('automation'));
- console.log('naveen automation labs'.indexOf('N'));
- console.log('naveen automation labs'.indexOf('js'));
-
- console.log('naveen automation labs naveen'.lastIndexOf('naveen'));
-
- 
- console.log('naveen automation labs'.search('aut'));
-
 
 

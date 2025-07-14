@@ -20,7 +20,6 @@ class car  { // simply creact class
     }
 }
  const c1 = new car ("honda",2302, 52) // craecting object propertis
- console.log(`${c1.name}, ${c1.model},${c1.price},${car.wheels}`); // print object properties and use static function with class name
  console.log(car.wheels); // calling static variable with class name  , output  4
  car.stop()// calling static method , output (car --- stop)
  c1.drive() // give us errer becouse we do not define with static keyword in class if call with class name 

@@ -32,7 +32,7 @@ const  randonValuePromisis = new Promise ((resolve,reject)=>{ // asign a promse 
 //  asynchronous operations in a structured and readable manne
 // --> where each step executes only after the previous one successfully
 
-function geteveresolvesnnumber(value, delay) {  // function name and declar tow variable
+function getevennumbe(value, delay) {  // function name and declar tow variable
 
     return new Promise((resolve,reject)=>{ // there is  difine promise with new keyword(a built-in operator used to create instances of objects from constructor functions or classes.)
         setTimeout(() => { //  schedule the execution of a function or a piece of code after a specified delay

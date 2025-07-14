@@ -17,7 +17,7 @@ console.log(str.length);
  // -->
  console.log('javascript'.slice(2, -5));
 
- // --> print the specific par of string
+ // --> print the specific part of string
  console.log('javascript'.substring(2,6));
  console.log('javascript'.substring(-2,2));
 
@@ -69,7 +69,7 @@ console.log(str.length);
  console.log('naveen automation labs naveen'.lastIndexOf('naveen'));
 
  
- console.log('naveen automation labs'.search('automation'));
+ console.log('naveen automation labs'.search('aut'));
 
 
 

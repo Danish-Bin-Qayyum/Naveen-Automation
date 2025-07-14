@@ -44,7 +44,7 @@ function geteveresolvesnnumber(value, delay) {  // function name and declar tow 
         }, delay); // delay time
     })
 };
-//promisis chain
+//promisis 
 getevennumbe(2,1000) // calling a normal function passing arrguments
 // --> we can pass the resole value one by one using .then() 
 .then(result=>{ // .then() method in JavaScript , which are objects representing the eventual completion or failure of an asynchronous operation.

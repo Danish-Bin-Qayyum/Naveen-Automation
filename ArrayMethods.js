@@ -15,7 +15,7 @@ console.log(fg);// true
 /*Returns the value of the first element in an array that pass a test*/
 let total = [1,4,3,5,7,9,10,12]
 let fe = total.find((e)=> e%2===0)
-console.log(fe);// 2
+console.log(fe);// 4
 
 //4. indexof():
 /* The indexOf() method searches an array for an element value and returns its position.*/

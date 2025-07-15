@@ -10,13 +10,13 @@ const mesg = (a,b) => a+b;// // simply define arrow function with  Brackets in t
 console.log(mesg(2,3));
 
 //3. case
-const getfullname =(person) => `${person.first} ${person.second}`// passing arrgument in the foam of templet literal
+const getfullname =() => `${person.first} ${person.second}`// passing arrgument in the foam of templet literal
                              // ( confusing in templat literal ???)
 const person = {
     first : "naveen",
     second : "automatiom"
 }
-const fullname=getfullname(person)// assigning function in new variable
+const fullname=getfullname()// assigning function in new variable
 console.log(fullname); // output ( naveen automation)
 
 //4. case

@@ -37,7 +37,7 @@ function getinfo() {
     })
 }
 //async functine which is calling getinfo() with await keyword
-async function getinumbernfo() {
+async function getinfo() {
     try {                               // simply try and catch method
         const result = await getinfo() // use await keyword to puase function
         console.log("await", result);

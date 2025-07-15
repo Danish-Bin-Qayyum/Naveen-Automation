@@ -34,7 +34,7 @@ const div = divide(24,6)
 console.log(div);// output ( 4 )
 
 //4. function constructor
-const substruct = new Function('a', 'b','return a - b' )// there are using backtick( backtick give access to use variabe and value between the string without any concatition)
+const substruct = Function('a', 'b','return a - b' )// there are using backtick( backtick give access to use variabe and value between the string without any concatition)
 const sub = substruct(3,1)                              // we can use return keyword as a arrguments
 console.log(sub); // output  2
 

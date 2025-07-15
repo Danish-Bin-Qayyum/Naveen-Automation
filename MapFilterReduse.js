@@ -6,13 +6,6 @@
  let doublenumber = number.map((e)=> e*2)//apply map function 
  console.log(doublenumber); // output [2,4,6]
 
- // another example
-let fahtemp = [1,2,3,4]// creacting a array
-function factociel(fah) {// simly a function
-return (fah -32) - (5/9)   
-} 
- let celtemp = fahtemp.map(factociel)//apply map function and call the function here
-console.log(celtemp);
 
 // 2. filter 
 // definitio : Array.prototype method used to create a new array containing all elements from the original array that satisfy a specified condition

@@ -6,7 +6,9 @@
 // --> not need to use await keyword in normal function
 // --> it is only use in promises
 
-async function f1() {//simple define a async function  (  why we use async function with .then() ?)
+/* a function designed to perform operations without
+* blocking the execution of other parts of the program.*/
+async function f1() {
     return 42 // function return to the .then() method
 }
  f1().then(result=>{ // calling function
@@ -14,15 +16,15 @@ async function f1() {//simple define a async function  (  why we use async funct
 })  // output is 42 print statment
 
 
-// asyn function without await with errordeclaring an asynchronous function.
-async function f2() {//simple define a async function
+/* asyn function without await with errordeclaring an asynchronous function.*/
+async function f2() {
     throw new error("this is my error"); // just creacting a error in new keyword and throw keyword( used to explicitly generate or "throw" an exception. )
 }
 f2().catch(error=>{
     console.log(`the error msg ${error}`);
 }) // output is error
 
-// async  function with resolve and reject promise
+/* async  function with resolve and reject promise*/
 function getinfo() {
     return new Promise((resolve, reject)=>{
         const ramdomber = Math.random// it is a inbuilt math function in js which take automalticaly a randon value
@@ -36,12 +38,13 @@ function getinfo() {
         }, 2000);
     })
 }
-//async functine which is calling getinfo() with await keyword
+/*a programming construct that allows you to handle errors
+* or unexpected events that may occur during the execution of a program.*/
 async function getinfo() {
-    try {                               // simply try and catch method
+    try {                              
         const result = await getinfo() // use await keyword to puase function
         console.log("await", result);
-    } catch (error) { // catch error from getinfo method
+    } catch (error) { 
         console.log("error", error);
     }
 }

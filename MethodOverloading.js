@@ -26,7 +26,7 @@ function displaybrowserinfo(browsername,browserversion,browserexecution) {
                    { 
                       console.log(`browser: ${browsername}, 'version ${browserversion} , execution ${browserexecution}`);
                    }
-                    else if (typeof browserversion === "number")
+                    else if ( typeof browserversion)
                    {
                     console.log(`browser: ${browsername},b 'version ${browserversion} `);
                    }
@@ -35,4 +35,4 @@ function displaybrowserinfo(browsername,browserversion,browserexecution) {
                       console.log(`browser: ${browsername}`);
                    }
 }
- displaybrowserinfo("chrom", 22 )
+ displaybrowserinfo("chrom",222,555)

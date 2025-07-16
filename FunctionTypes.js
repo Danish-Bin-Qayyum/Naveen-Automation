@@ -100,8 +100,3 @@ function operator(funName,a,b) {
 }
 const s = operator(addition,3,7)
 console.log(s); // 10
-
-
-
-
-

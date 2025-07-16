@@ -14,7 +14,7 @@ class car  {
     }
 }
 //clild class
-class audi {
+class audi extends car {
     // this is my overriden method
     startebgin() {
         console.log("starts engin");

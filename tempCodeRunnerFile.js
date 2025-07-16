@@ -1,0 +1,1 @@
+ const c1 = new car ("honda",2302, 52)

@@ -7,8 +7,8 @@ console.log(flag); // true
 
 //2. some ()
 /*The some() method checks if some array values pass a test and return a boolean value*/
-let number = [1,2,3,4,5];
-let fg = num.some((e)=>e% 2 === 0);
+let num1 = [1,2,3,4,5];
+let fg = num1.some((e)=>e% 2 === 0);
 console.log(fg);// true
 
 //2. find()

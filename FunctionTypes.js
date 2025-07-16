@@ -57,7 +57,7 @@ console.log(sub); // output  2
 function* generatornumbersequence() {  // (condusing ????)
     yield 1   // The * after function means it’s a generator.
     yield 2   // yield is used to pause the function and return a value.
-    yield 3    // You can resume the function later using .next(). 
+    yield 3   // You can resume the function later using .next(). 
     yield 4
     yield 5
 }

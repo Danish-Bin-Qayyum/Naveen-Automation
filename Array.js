@@ -77,6 +77,11 @@ let pop = [1,2,3,4,5,6,7]
 let newpop = pop.slice(0,5)//array.slice(start, end)
 console.log(newpop); // [1,2,3,4,5]
 
+// how to remove dublicate array ?
+ const a = [1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,9]
+ const b =  [... new Set (a)]
+ console.log(b);//1,2,3,4,5,6,7,8,9
+
 //-----------------------( summary )---------------------------//
 
 //--------------- Arrays operations -------------------//

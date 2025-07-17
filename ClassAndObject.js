@@ -18,3 +18,4 @@ class car {
 //new keywor to craate the obj
 const c1 = new car ("mbws",2000,2025,"red") // simply creacting a objects 
 console.log(c1);
+console.log(c1.name+"  "+c1.price+"  "+c1.model+"  "+c1.color);

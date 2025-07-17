@@ -1,7 +1,8 @@
 //--------------------------------(class and objects )-------------------------------------------//
-// --> classes are the blue print of objects
 // mhy we use class ???
  // ans :  (1)  allowing for the organization and reuse of code, and the representation of real-world entities.
+ 
+ /* classes are the blue print of objects */
 class car {
     constructor(name, price,model,color) {
         this.name = name// Accessing Object Properties and Methods within Methods:

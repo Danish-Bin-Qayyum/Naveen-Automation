@@ -1,4 +1,5 @@
 
+/*  a control structure is a block of code that determines the flow of execution of instructions within a program. */
 function checkage(age) {// simply craect a function to the age
     if (age>18) {
          console.log("your aer old enouhg to vote");

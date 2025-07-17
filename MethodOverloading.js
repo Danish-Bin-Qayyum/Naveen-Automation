@@ -1,7 +1,7 @@
 //----------------------------( function overloading in javascript )--------------------------------//
-// --> Function overloading is the ability to define multiple functions with the same name but different parameters
-// --> it is not possible dirctly in javascript
-// we can access overloadind  by control stament
+/*Function overloading is the ability to define multiple functions with the same name but different parameters
+* it is not possible dirctly in javascript
+* we can access overloadind  by control stament*/
 
 function print(params) {
     console.log("hi");
@@ -17,10 +17,9 @@ function print(name, age) {
 //calling
 print(); // there is no output here because  it is not possible dirctly in javascript
          // and it take only rencently declare function
-//to make ability to overload method by controlstatment
 
 
-
+/* make ability to overload method by controlstatment */
 function displaybrowserinfo(browsername,browserversion,browserexecution) {
                    if (typeof browserversion === 'number' && typeof browserexecution)// (why we  use typof keyword if if are use this operator "===")
                    { 

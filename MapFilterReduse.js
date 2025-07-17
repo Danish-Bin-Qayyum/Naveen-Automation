@@ -1,14 +1,16 @@
  
- // dedinition : the map() function is an array method that creates a new array by calling a provided function on every element in the original array.
- // --> .map() functio return  a new array
- // --> it work just like loop whict exeract each element of array
- let number = [1,2,3] // creacting a array
- let doublenumber = number.map((e)=> e*2)//apply map function 
+ /*the map() function is an array method that creates a new array by
+ * calling a provided function on every element in the original array.
+ * .map() functio return  a new array
+ * it work just like loop which exeract each element of array*/
+ let number = [1,2,3] 
+ let doublenumber = number.map((e)=> e*2)
  console.log(doublenumber); // output [2,4,6]
 
 
 // 2. filter 
-// definitio : Array.prototype method used to create a new array containing all elements from the original array that satisfy a specified condition
+/*Array.prototype method used to create a new array containing all elements
+* from the original array that satisfy a specified condition*/
 
 let employee = [
     {name : "jhon", age: 30 , gender: "male"} ,
@@ -31,9 +33,9 @@ console.log(evennum);//[2,4,6,8,10]
 
 
 //reduce
-// definatio :  that processes each element in an array to produce a single output value. I
-// --> rest parameters (...)
-// --> used for infinit number of arguments
+/* that processes each element in an array to produce a single output value. 
+* rest parameters (...)
+* used for infinit number of arguments*/
 const sum = (...numbers) => numbers.reduce((acc,num)=> acc+num,);//rest parameter that allows you to collect an indefinite number of arguments into an array
                                                                   //-->  the accumulator is a value that accumulates (جمع کرنا) the result of the reducer 
 const total = sum(1,2,3,4,5);

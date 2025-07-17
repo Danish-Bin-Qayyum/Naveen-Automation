@@ -1,4 +1,5 @@
- // inheritance means to give and take properties of class and function to one and other
+ /* inheritance means to give and take properties of class and function to one and other*/
+ 
 // parent ( super class) 
 class vehicle {// simply declaring class with class name 
     constructor(make, model , year) {// what is constructor

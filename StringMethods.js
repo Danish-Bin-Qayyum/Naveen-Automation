@@ -50,5 +50,20 @@ console.log(str.length);
   // --> remove space from ending
  console.log("hello js ".trimEnd());
 
+ /*  convert a string to a number in JavaScript without using parseInt()*/
+ const str1 = "456";
+    const num = Number(str1);
+    console.log(num);
 
+/* o split a multiline string into an array of lines in JavaScript, the split() method of the String*/
+const multilineString = `This is line one.
+This is line two.
+And this is line three.`;
+// Split by newline character(s)
+const linesArray = multilineString.split();
+console.log(linesArray)
 
+/*The split('') method can be used to split the string into an array where each element is a single character.*/
+const str2 = "hello world";
+ const charArray = str2.split(''); // ['h', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd']
+ console.log(str2);

@@ -14,8 +14,7 @@ async function f1() {
  f1().then(result=>{ // calling function
     console.log(result);
 })  // output is 42 print statment
-
-
+                      
 /* asyn function without await with errordeclaring an asynchronous function.*/
 async function f2() {
     throw new error("this is my error"); // just creacting a error in new keyword and throw keyword( used to explicitly generate or "throw" an exception. )
@@ -48,7 +47,7 @@ async function getinfo() {
         console.log("error", error);
     }
 }
-getinumbernfo(); // calling function
+getinfo(); // calling function
 
 // output some time reject some time resole
 
